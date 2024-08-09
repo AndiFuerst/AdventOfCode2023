@@ -105,7 +105,7 @@ def get_line_value(line):
 
 
 if __name__ == "__main__":
-    file = open("input.txt", "r+")
+    file = open("Day1-Trebuchet/input.txt", "r+")
     total_value = 0
     for line in file:
         total_value += get_line_value(line)
