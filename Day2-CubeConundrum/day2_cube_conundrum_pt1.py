@@ -60,3 +60,4 @@ if __name__ == "__main__":
         if is_game_possible(game):
             possible_games.append(get_game_id(game))
     print(sum(possible_games))
+    file.close()

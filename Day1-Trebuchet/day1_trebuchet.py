@@ -4,41 +4,6 @@
 # Author: AndiFuerst -- https://github.com/AndiFuerst
 ###############################################################################
 
-# lines of text
-# each line contains a specific value
-# the value is made by combining the first digit and the last digit on the line
-
-# Example 1:
-# |=======================|
-# |    Input    || Output |
-# |=============||========|
-# | 1abc2       || 12     |
-# | pqr3stu8vwx || 38     |
-# | a1b2c3d4e5f || 15     |
-# | treb7uchet  || 142    |
-# |=======================|
-# |        Result         |
-# |=======================|
-# |          142          |
-# |=======================|
-
-# Example 2:
-# |============================|
-# |       Input      || Output |
-# |==================||========|
-# | two1nine         || 29     |
-# | eighttwothree    || 83     |
-# | abcone2threexyz  || 13     |
-# | xtwone3four      || 24     |
-# | 4nineeightseven2 || 42     |
-# | zoneight234      || 14     |
-# | 7pqrstsixteen    || 76     |
-# |============================|
-# |           Result           |
-# |============================|
-# |            281             |
-# |============================|
-
 DIGITS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
 def get_line_integers_as_strings(line):
@@ -110,4 +75,5 @@ if __name__ == "__main__":
     for line in file:
         total_value += get_line_value(line)
     print(total_value)
+    file.close()
 

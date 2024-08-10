@@ -56,3 +56,4 @@ if __name__ == "__main__":
     for game in file:
         total_sum += get_power_of_game(game)
     print(total_sum)
+    file.close()
