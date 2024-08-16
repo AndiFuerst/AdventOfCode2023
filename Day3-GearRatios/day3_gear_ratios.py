@@ -3,6 +3,7 @@
 # https://adventofcode.com/2023/day/3
 # Author: AndiFuerst -- https://github.com/AndiFuerst
 # Reference Material: https://www.reddit.com/r/adventofcode/comments/189m3qw/comment/kbs9g3g/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+# I am not happy with how this turned out. I plan on attempting this again in the future.
 ###############################################################################
 
 import re
